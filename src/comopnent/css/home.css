@@ -1,0 +1,114 @@
+.homeContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1e1a1a;
+  width: 100vw;
+}
+
+.homeContainer .homeWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.homeContainer .homeWrapper .homeText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  margin-right: 15vw;
+}
+
+.homeContainer .homeWrapper .homeText h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #89e922;
+}
+
+.homeContainer .homeWrapper .homeText h3 {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.homeContainer .homeWrapper .homeText h4 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #c85841;
+  margin-bottom: .5rem;
+}
+
+.homeContainer .homeWrapper .homeText p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.homeContainer .homeWrapper .homeText button {
+  width: 12rem;
+  border: none;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  color: white;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1.2rem;
+  background-color: #89e922;
+}
+
+.homeContainer .homeWrapper .homeText button:hover {
+  cursor: pointer;
+}
+
+.homeContainer .homeWrapper .homeImg {
+  width: 38rem;
+}
+
+.homeContainer .homeWrapper .homeImg img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .homeContainer .homeWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .homeContainer .homeWrapper .homeText {
+    margin-bottom: 2rem;
+  }
+  .homeContainer .homeWrapper .homeText p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .homeContainer .homeWrapper .homeImg {
+    width: 20rem;
+  }
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,295 @@
+.GraphicContainer .GraphicWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection {
+  background-color: white;
+  min-width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics {
+  position: relative;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .fontawesomeIcon {
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  cursor: pointer;
+  top: 5px;
+  right: 10px;
+  position: absolute;
+  color: #504f4e;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .fontawesomeIcon:hover {
+  color: #ec3030;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicImg {
+  cursor: pointer;
+  width: 35rem;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicImg img {
+  width: 100%;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .Stars {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .Stars .fontawesomeIconStars {
+  width: 1rem;
+  cursor: pointer;
+  color: #fba53c;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicTitle {
+  cursor: pointer;
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+  width: 35ch;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicTitle h3 {
+  font-weight: 600;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicPara {
+  margin-top: 2rem;
+  width: 40ch;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicPara p {
+  font-weight: 500;
+  opacity: .6;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicPrice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicPrice p {
+  color: red;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicPrice .underlinePrice {
+  color: black;
+  opacity: .35;
+  text-decoration: line-through;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .QuantityBtn {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  opacity: .8;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .QuantityBtn button {
+  cursor: pointer;
+  border: none;
+  font-size: 1.2rem;
+  color: #3c2b2b;
+  background-color: #aca7a7;
+  width: 3rem;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicBtn p {
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  border-radius: .3rem;
+  color: white;
+  background-color: #610707;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicBtn p:hover {
+  background-color: #b61616;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicBtn p .fontawesomeIcon_Cart {
+  margin-right: .5rem;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .GraphicSpecs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .GraphicSpecs h3 {
+  background-color: #494949;
+  padding: .5rem 2rem .25rem 2rem;
+  color: white;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .GraphicSpecs .specsHeader {
+  padding: .25rem 1.5rem .25rem 1.5rem;
+  background-color: #494949;
+  color: white;
+}
+
+.GraphicContainer .GraphicWrapper .GraphicCollection .GraphicSpecs .specsLists {
+  margin-top: 2rem;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 1000px) {
+  .GraphicContainer .GraphicWrapper .GraphicCollection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .GraphicContainer .GraphicWrapper .GraphicCollection .Graphics {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicImg {
+    width: 25rem;
+  }
+  .GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicTitle {
+    width: 30ch;
+  }
+  .GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicPara {
+    width: 55ch;
+    margin-left: .5rem;
+  }
+  .GraphicContainer .GraphicWrapper .GraphicCollection .GraphicSpecs .specsLists {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicImg {
+    width: 20rem;
+  }
+  .GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicTitle {
+    width: 30ch;
+  }
+  .GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicPara {
+    width: 35ch;
+    margin-left: .5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicImg {
+    width: 20rem;
+  }
+  .GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicTitle {
+    width: 20ch;
+  }
+  .GraphicContainer .GraphicWrapper .GraphicCollection .Graphics .GraphicDetails .GraphicPara {
+    width: 25ch;
+    margin-left: .5rem;
+  }
+}
+/*# sourceMappingURL=GraphicCard.css.map */

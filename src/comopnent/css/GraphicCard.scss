@@ -1,0 +1,273 @@
+.GraphicContainer{
+
+    .GraphicWrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    
+        .GraphicCollection{
+            background-color: white;
+            min-width: 90vw;
+            // border: 1px solid rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            .Graphics{
+                position: relative;
+                padding-top: 1rem;
+                padding-right: 1rem;
+                padding-left: 1rem;
+                padding-bottom: 1rem;
+                margin-top: 5rem;
+                margin-right: 1rem;
+                margin-left: 1rem;
+                margin-bottom: 5rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+
+                .fontawesomeIcon{
+                    transition: all .25s ease-in-out;
+                    &:hover{
+                        color: rgb(236, 48, 48);
+                    }
+                    cursor: pointer;
+                    top: 5px;
+                    right: 10px;
+                    position: absolute;
+                    color: rgb(80, 79, 78);
+                }
+                .GraphicImg{
+                    cursor: pointer;
+                    width: 35rem;
+                    // border: 1px solid black;
+
+                    img{
+                        width: 100%;
+                    }
+                }
+                .GraphicDetails{
+                    // display: flex;
+                    // align-items: center;
+                    // justify-content: center;
+                    // flex-direction: column;
+                    .Stars{
+                        margin-top: 3rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        // margin-top: .25rem;
+                        margin-bottom: 1rem;
+                        // width: .5rem;
+                        .fontawesomeIconStars{
+                            width: 1rem;
+                            cursor: pointer;
+                            color: rgb(251, 165, 60);
+                            
+                        }
+                    }
+                    .GraphicTitle{
+                        cursor: pointer;
+                        margin-top: .25rem;
+                        margin-bottom: .25rem;
+                        width: 35ch;
+                        h3{
+                            font-weight: 600;
+                        }
+    
+                    }
+                    .GraphicPara{
+                        margin-top: 2rem;
+                        width: 40ch;
+                        p{
+                            font-weight: 500;
+                            opacity: .6;
+                        }
+                    }
+                    .GraphicPrice{
+                        // margin-top: 1rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        p{
+                            color: red;
+                        }
+                        .underlinePrice{
+    
+                            color: black;
+                            opacity: .35;
+                            text-decoration: line-through;
+                        }
+                    }
+                    .QuantityBtn{
+                        margin-top: 3rem;
+                        margin-bottom: 3rem;
+                        opacity: .8;
+                        font-size: 1rem;
+                        display: flex;
+                        justify-content: space-around;
+                        button{
+                            cursor: pointer;
+                            border: none;
+                            font-size: 1.2rem;
+                            color: rgb(60, 43, 43);
+                            background-color: rgb(172, 167, 167);
+                            width: 3rem;
+                        }
+                    }
+                    .GraphicBtn{
+                        display: flex;
+                        justify-content: space-around;
+
+                        p{
+                            transition: all .25s ease-in-out;
+                            &:hover{
+                                background-color: rgb(182, 22, 22);
+                            }
+                            cursor: pointer;
+                            font-weight: 600;
+                            font-size: 1rem;
+                            padding-top: .25rem;
+                            padding-bottom: .25rem;
+                            padding-right: .5rem;
+                            padding-left: .5rem;
+                            border-radius: .3rem;
+                            color: white;
+                            background-color: rgb(97, 7, 7);
+                            .fontawesomeIcon_Cart{
+                                margin-right: .5rem;
+                            }
+                        }
+                    }
+                }
+
+            }
+            .GraphicSpecs{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                h3{
+                    background-color: rgb(73, 73, 73);
+                    padding: .5rem 2rem .25rem 2rem;
+                    color: white;
+                }
+                .specsHeader{
+                    padding: .25rem 1.5rem .25rem 1.5rem;
+                    background-color: rgb(73, 73, 73);
+                    color: white;
+
+                }
+                
+                .specsLists{
+                    margin-top: 2rem;
+                    width: 80%;
+                    display: flex;
+                    justify-content: space-between;
+                    
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 1000px){
+
+    .GraphicContainer{
+
+        .GraphicWrapper{
+            
+            
+            .GraphicCollection{
+                display: flex;
+                flex-direction: column;
+
+        .Graphics{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            .GraphicImg{
+                width: 25rem;
+            }
+            .GraphicDetails{
+                .GraphicTitle{
+                   width: 30ch;
+                }
+                .GraphicPara{
+                    width: 55ch;
+                    margin-left: .5rem;
+
+                }
+            }
+        }
+        .GraphicSpecs{
+            .specsLists{
+                flex-direction: column;
+            }
+        }
+    }
+}
+}
+}
+@media only screen and (max-width: 600px){
+
+    .GraphicContainer{
+
+        .GraphicWrapper{
+            
+            
+            .GraphicCollection{
+                
+
+            .Graphics{
+            .GraphicImg{
+                width: 20rem;
+            }
+            .GraphicDetails{
+                .GraphicTitle{
+                   width: 30ch;
+                }
+                .GraphicPara{
+                    width: 35ch;
+                    margin-left: .5rem;
+
+                }
+            }
+        }
+    }
+}
+}
+}
+@media only screen and (max-width: 400px){
+
+    .GraphicContainer{
+
+        .GraphicWrapper{
+            
+            
+            .GraphicCollection{
+                
+
+            .Graphics{
+            .GraphicImg{
+                width: 20rem;
+            }
+            .GraphicDetails{
+                .GraphicTitle{
+                   width: 20ch;
+                }
+                .GraphicPara{
+                    width: 25ch;
+                    margin-left: .5rem;
+
+                }
+            }
+        }
+    }
+}
+}
+}

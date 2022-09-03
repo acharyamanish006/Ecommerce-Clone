@@ -1,0 +1,150 @@
+.link {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.products {
+  -webkit-transition: all .45s ease-in-out;
+  transition: all .45s ease-in-out;
+  position: relative;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 30rem;
+}
+
+.products:hover {
+  -webkit-box-shadow: 0 0 10px #7c7b7b;
+          box-shadow: 0 0 10px #7c7b7b;
+}
+
+.products .fontawesomeIcon {
+  z-index: 55;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  cursor: pointer;
+  top: 5px;
+  right: 10px;
+  position: absolute;
+  color: #504f4e;
+}
+
+.products .fontawesomeIcon:hover {
+  color: #ec3030;
+}
+
+.products .productImg {
+  cursor: pointer;
+  width: 15rem;
+}
+
+.products .productImg img {
+  width: 100%;
+}
+
+.products .productTitle {
+  -webkit-transition: all .45s ease-in-out;
+  transition: all .45s ease-in-out;
+  cursor: pointer;
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+  width: 30ch;
+}
+
+.products .productTitle:hover {
+  color: #d22e2e;
+}
+
+.products .productTitle h3 {
+  color: black;
+  opacity: .85;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.products .productPrice {
+  margin-top: .85rem;
+  margin-bottom: .85rem;
+}
+
+.products .productPrice p {
+  color: red;
+}
+
+.products .productPrice .underlinePrice {
+  color: black;
+  opacity: .35;
+  text-decoration: line-through;
+}
+
+.products .Stars {
+  margin-top: .25rem;
+  margin-bottom: .45rem;
+}
+
+.products .Stars .fontawesomeIconStars {
+  width: 1rem;
+  cursor: pointer;
+  color: #fba53c;
+}
+
+.products .productBtn {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.products .productBtn button {
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-top: .35rem;
+  padding-bottom: .35rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  border-radius: .3rem;
+  color: white;
+  background-color: #610707;
+}
+
+.products .productBtn button:hover {
+  background-color: #b61616;
+}
+
+.products .productBtn button .fontawesomeIcon_Cart {
+  margin-right: .5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .products {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .products {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+/*# sourceMappingURL=product.css.map */

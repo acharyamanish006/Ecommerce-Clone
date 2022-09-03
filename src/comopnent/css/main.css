@@ -1,0 +1,250 @@
+.navContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  width: 100vw;
+}
+
+.navContainer .Wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navContainer .Wrapper .navWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.navContainer .Wrapper .navWrapper .logo {
+  width: 8rem;
+}
+
+.navContainer .Wrapper .navWrapper .logo:hover {
+  cursor: pointer;
+}
+
+.navContainer .Wrapper .navWrapper .logo img {
+  width: 100%;
+}
+
+.navContainer .Wrapper .navWrapper .search {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: .75rem;
+}
+
+.navContainer .Wrapper .navWrapper .search .searchBar {
+  width: 35rem;
+  height: 2rem;
+  padding-left: .5rem;
+  border-radius: .35rem;
+}
+
+.navContainer .Wrapper .navWrapper .search .fontawesomeIcon {
+  margin-left: .5rem;
+  width: 1rem;
+  color: #fff;
+}
+
+.navContainer .Wrapper .navWrapper .search .fontawesomeIcon:hover {
+  cursor: pointer;
+}
+
+.navContainer .Wrapper .navWrapper .search .fontawesomeIcon_search {
+  display: none;
+}
+
+.navContainer .Wrapper .navWrapper .search .fontawesomeIcon_X {
+  display: none;
+}
+
+.navContainer .Wrapper .navWrapper .signOut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navContainer .Wrapper .navWrapper .signOut:hover {
+  cursor: pointer;
+}
+
+.navContainer .Wrapper .navWrapper .signOut button {
+  margin-bottom: 2rem;
+  margin-left: .35rem;
+  padding: 0;
+  border: none;
+  color: #fff;
+  background-color: black;
+}
+
+.navContainer .Wrapper .navWrapper .signOut button:hover {
+  cursor: pointer;
+}
+
+.navContainer .Wrapper .navWrapper .signOut button .fontawesomeIcon {
+  color: #fff;
+  margin-left: .5rem;
+  margin-top: .25rem;
+}
+
+.navContainer .Wrapper .navWrapper .signOut button .fontawesomeIcon:hover {
+  cursor: pointer;
+}
+
+.navContainer .Wrapper .navWrapper .signOut .fontawesomeIcon_Responsive {
+  color: #fff;
+  margin-left: .5rem;
+  margin-top: .25rem;
+  display: none;
+}
+
+.navContainer .Wrapper .navWrapper .signOut .fontawesomeIcon_Responsive:hover {
+  cursor: pointer;
+}
+
+.navContainer .Wrapper .navList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navContainer .Wrapper .navList ul {
+  margin-bottom: 1rem;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navContainer .Wrapper .navList ul li {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.navContainer .Wrapper .navList ul li a {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  color: white;
+  text-decoration: none;
+}
+
+.navContainer .Wrapper .navList ul li a:hover {
+  color: #c85841;
+  cursor: pointer;
+}
+
+.navContainer .Wrapper .navList ul li a:hover .fontawesomeIcon {
+  color: #c85841;
+}
+
+.navContainer .Wrapper .navList ul li a .fontawesomeIcon {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  margin-right: .35rem;
+  width: 1rem;
+  color: #fff;
+}
+
+.navContainer .Wrapper .navList ul li a .fontawesomeIcon:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .navContainer .Wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navContainer .Wrapper .navWrapper {
+    margin-top: .25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navContainer .Wrapper .navWrapper .logo {
+    width: 5rem;
+    margin-right: 50vw;
+  }
+  .navContainer .Wrapper .navWrapper .search {
+    margin: 0;
+  }
+  .navContainer .Wrapper .navWrapper .search .fontawesomeIcon {
+    display: none;
+    margin-top: 0;
+  }
+  .navContainer .Wrapper .navWrapper .search .fontawesomeIcon_search {
+    margin-top: .25rem;
+    display: block;
+  }
+  .navContainer .Wrapper .navWrapper .search .searchBar {
+    display: none;
+  }
+  .navContainer .Wrapper .navWrapper .signOut {
+    margin-left: 5vw;
+  }
+  .navContainer .Wrapper .navWrapper .signOut button {
+    display: none;
+  }
+  .navContainer .Wrapper .navWrapper .signOut .fontawesomeIcon_Responsive {
+    display: block;
+  }
+  .navContainer .Wrapper .navList {
+    z-index: 10000;
+    background-color: black;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  .navContainer .Wrapper .navList ul {
+    margin-bottom: 0;
+  }
+  .navContainer .Wrapper .navList ul li {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: 0;
+    margin-right: 8vw;
+  }
+  .navContainer .Wrapper .navList ul li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: .8rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

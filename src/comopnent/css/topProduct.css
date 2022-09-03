@@ -1,0 +1,185 @@
+.ProductContainer .ProductWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+}
+
+.ProductContainer .ProductWrapper .ProductHeading {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ProductContainer .ProductWrapper .ProductHeading h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection {
+  background-color: white;
+  min-width: 90vw;
+  margin-bottom: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products {
+  -webkit-transition: all .45s ease-in-out;
+  transition: all .45s ease-in-out;
+  position: relative;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products:hover {
+  -webkit-box-shadow: 0 0 10px #7c7b7b;
+          box-shadow: 0 0 10px #7c7b7b;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .fontawesomeIcon {
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  cursor: pointer;
+  top: 5px;
+  right: 10px;
+  position: absolute;
+  color: #504f4e;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .fontawesomeIcon:hover {
+  color: #ec3030;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .productImg {
+  cursor: pointer;
+  width: 15rem;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .productImg img {
+  width: 100%;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .productTitle {
+  -webkit-transition: all .45s ease-in-out;
+  transition: all .45s ease-in-out;
+  cursor: pointer;
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+  width: 30ch;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .productTitle:hover {
+  color: #d22e2e;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .productTitle h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .productPrice {
+  margin-top: .85rem;
+  margin-bottom: .85rem;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .productPrice p {
+  color: red;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .productPrice .underlinePrice {
+  color: black;
+  opacity: .35;
+  text-decoration: line-through;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .productBtn {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .productBtn p {
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  border-radius: .3rem;
+  color: white;
+  background-color: #610707;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .productBtn p:hover {
+  background-color: #b61616;
+}
+
+.ProductContainer .ProductWrapper .ProductCollection .products .productBtn p .fontawesomeIcon_Cart {
+  margin-right: .5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .ProductContainer .ProductWrapper .ProductCollection {
+    display: -ms-inline-grid;
+    display: inline-grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .ProductContainer .ProductWrapper .ProductCollection .products {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .ProductContainer .ProductWrapper .ProductCollection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ProductContainer .ProductWrapper .ProductCollection .products {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+/*# sourceMappingURL=topProduct.css.map */
